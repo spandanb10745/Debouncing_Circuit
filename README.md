@@ -27,7 +27,7 @@ The noisy push button was simulated first on a testbench and results were verifi
 
 ### Xilinx Vivado Simulation
 
-<img width="959" alt="Screenshot 2024-06-13 024725" src="https://github.com/HardikJainGit/Debouncing-Verilog/assets/133627261/dcd7ff33-eb96-4257-942d-ea7cb6508bd4">
+<img width="959" alt="Screenshot 2024-06-13 024725" src="![Image](https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6)">
 
 ### Schematic
 
