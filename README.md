@@ -31,4 +31,4 @@ The noisy push button was simulated first on a testbench and results were verifi
 
 ### Schematic
 
-<img width="938" alt="image" src="https://github.com/HardikJainGit/Debouncing-Verilog/assets/133627261/a0f6087d-cdfa-45c6-828a-5e352a630c1e">
+<img width="938" alt="image" src="!https://github.com/user-attachments/assets/90993d1b-6f6f-4e12-974a-6f487fe820cc"> 
