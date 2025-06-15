@@ -27,7 +27,7 @@ The noisy push button was simulated first on a testbench and results were verifi
 
 ### Xilinx Vivado Simulation
 
-<img width="959" alt="Screenshot 2024-06-13 024725" src="![Image](https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6)">
+<img width="959" alt="Screenshot 2024-06-13 024725" src="https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6">
 
 ### Schematic
 
