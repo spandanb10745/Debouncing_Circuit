@@ -1,8 +1,7 @@
 # Debouncing Circuits and Edge Detection using FSMs
 
 This project involves the design and implementation of FSM-based modules for debouncing a switch and detecting edges. The modules are implemented in Verilog and synthesized for FPGA programming. The FPGA used is Nexys Artix-7 100T with CSG324 chip.
-
-![Image](https://github.com/user-attachments/assets/f64008c8-233c-4e4a-b1ee-51383122aa1d)
+![Image](https://github.com/user-attachments/assets/9e3370ce-43bb-4f10-935f-eb8133272406)
 
 ## Overview
 
@@ -27,8 +26,10 @@ The noisy push button was simulated first on a testbench and results were verifi
 
 ### Xilinx Vivado Simulation
 
-<img width="959" alt="Screenshot 2024-06-13 024725" src="https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6">
+<img width="959" alt="Screenshot 2024-06-13 024725" src="https://github.com/user-attachments/assets/f64008c8-233c-4e4a-b1ee-51383122aa1d">
 
 ### Schematic
 
-<img width="938" alt="image" src="https://github.com/user-attachments/assets/90993d1b-6f6f-4e12-974a-6f487fe820cc"> 
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6">
+
+"> 
