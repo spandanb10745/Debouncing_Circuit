@@ -1,0 +1,28 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot button_tb_behav xil_defaultlib.button_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.synchronizer
+Compiling module xil_defaultlib.debouncer_delayed_fsm
+Compiling module xil_defaultlib.timer_parameter(FINAL_VALUE=1999...
+Compiling module xil_defaultlib.debouncer_delayed
+Compiling module xil_defaultlib.edge_detector
+Compiling module xil_defaultlib.button
+Compiling module xil_defaultlib.udl_counter
+Compiling module xil_defaultlib.udl_counter(BITS=3)
+Compiling module xil_defaultlib.timer_parameter(FINAL_VALUE=1041...
+Compiling module xil_defaultlib.decoder_generic
+Compiling module xil_defaultlib.mux_8x1_nbit(N=6)
+Compiling module xil_defaultlib.hex2sseg
+Compiling module xil_defaultlib.sseg_driver
+Compiling module xil_defaultlib.button_test_circuit
+Compiling module xil_defaultlib.button_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot button_tb_behav

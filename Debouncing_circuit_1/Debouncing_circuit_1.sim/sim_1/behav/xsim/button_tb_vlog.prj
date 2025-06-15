@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/button.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/button_test_circuit.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/debouncer_delayed.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/debouncer_delayed_fsm.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/decoder_generic.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/edge_detector.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/hex2sseg.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/mux_8x1_nbit.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/sseg_driver.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/synchronizer.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/timer_parameter.v" \
+"../../../../Debouncing_circuit_1.srcs/sources_1/new/udl_counter.v" \
+"../../../../Debouncing_circuit_1.srcs/sim_1/new/button_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

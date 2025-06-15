@@ -1,0 +1,19 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sim_1/new/button_tb.v,1749979015,verilog,,,,button_tb,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sim_1/new/debouncer_delayed_tb.v,1749979064,verilog,,,,debouncer_delayed_tb,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/button.v,1749978871,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/button_test_circuit.v,,button,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/button_test_circuit.v,1749978899,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/debouncer_delayed.v,,button_test_circuit,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/debouncer_delayed.v,1749978812,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/debouncer_delayed_fsm.v,,debouncer_delayed,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/debouncer_delayed_fsm.v,1749978594,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/decoder_generic.v,,debouncer_delayed_fsm,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/decoder_generic.v,1749978681,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/edge_detector.v,,decoder_generic,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/edge_detector.v,1749978542,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/hex2sseg.v,,edge_detector,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/hex2sseg.v,1749978723,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/mux_8x1_nbit.v,,hex2sseg,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/mux_8x1_nbit.v,1749978708,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/sseg_driver.v,,mux_8x1_nbit,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/sseg_driver.v,1749978822,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/synchronizer.v,,sseg_driver,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/synchronizer.v,1749978565,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/timer_parameter.v,,synchronizer,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/timer_parameter.v,1749978622,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/udl_counter.v,,timer_parameter,,,,,,,,
+C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sources_1/new/udl_counter.v,1749978648,verilog,,C:/Users/spand/Debouncing_circuit_1/Debouncing_circuit_1.srcs/sim_1/new/button_tb.v,,udl_counter,,,,,,,,
