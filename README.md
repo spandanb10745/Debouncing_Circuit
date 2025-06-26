@@ -1,35 +1,73 @@
-# Debouncing Circuits and Edge Detection using FSMs
+# Debouncing and Edge Detection using FSMs on Nexys A7 FPGA
 
-This project involves the design and implementation of FSM-based modules for debouncing a switch and detecting edges. The modules are implemented in Verilog and synthesized for FPGA programming. The FPGA used is Nexys Artix-7 100T with CSG324 chip.
-![Image](https://github.com/user-attachments/assets/9e3370ce-43bb-4f10-935f-eb8133272406)
+This project demonstrates the implementation of a Finite State Machine (FSM)-based debouncing circuit and edge detector for mechanical push-buttons. The design is written in Verilog HDL and deployed on a Nexys A7 (Artix-7 100T CSG324) FPGA development board.
 
-## Overview
+![Project Setup](https://github.com/user-attachments/assets/9e3370ce-43bb-4f10-935f-eb8133272406)
 
-Switches are often prone to noise, which can cause multiple transitions (bounces) when pressed or released. This project aims to address this issue by creating a debouncing circuit. Additionally, an edge detector is implemented to detect rising and falling edges of the switch signal.
+---
 
-## Features
+## 🧠 Objective
 
-- **FSM Design**: Created finite state machine (FSM) modules for debouncing and edge detection.
-- **Verilog Coding**: Implemented the FSMs using Verilog hardware description language.
-- **Design Synthesis**: Synthesized the design for FPGA implementation.
-- **Bitstream Generation**: Generated bitstreams for programming the FPGA.
-- **FPGA Programming**: Programmed the FPGA to implement the practical button using the developed modules.
-- **Checking and Verification**: Verified the functionality of the modules on the FPGA.
+Mechanical switches are prone to bouncing, causing unreliable signals in digital circuits. This project addresses that problem using:
 
-## Description
+- A **debouncing FSM** that filters out noise from the button signal.
+- An **edge detector** that accurately detects rising or falling edges after debouncing.
 
-The project detects edge when the button is pressed. The debouncing unit ignores false edges and does not count them. To achieve this a FSM is designed to ignore the false edges and only detect an edge if it stays longer than some time threshold (20 ms is taken here). A 2 stage synchronizer is used to avoid meta-stable state. The working is verified by incrementing numbers on pressing button and the two numbers generated with and without debouncing are then compared. The output is displayed on the seven segment display and the refresh rate (using custom timers and counters) and combinational logic and multiplexing is maintained wisely to display different numbers on the FPGA board's seven segment display. 
+---
 
-## Simulation and Verification
+## ⚙️ Key Features
 
-The noisy push button was simulated first on a testbench and results were verified on Xilinx Vivado. Further, it was tested on a FPGA to confirm the debouncing action of the mechanical push buttons of the FPGA.
+- **FSM-based Debouncer**: Filters out multiple unwanted transitions within a specified time window (20ms).
+- **Edge Detection**: Accurately identifies rising or falling edges after stabilization.
+- **Two-Stage Synchronizer**: Prevents metastability when transitioning between clock domains.
+- **Verilog HDL**: All modules implemented in Verilog with modular design.
+- **Seven-Segment Display Output**: Button press events reflected via updated digits on the display.
+- **Vivado Simulation**: FSM behavior validated through testbenches and waveforms.
+- **FPGA Deployment**: Real-time verification on Nexys A7 FPGA board.
 
-### Xilinx Vivado Simulation
+---
 
-<img width="959" alt="Screenshot 2024-06-13 024725" src="https://github.com/user-attachments/assets/f64008c8-233c-4e4a-b1ee-51383122aa1d">
+## 🧩 System Design
 
-### Schematic
+The design consists of:
 
-<img width="938" alt="image" src="https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6">
+- **Debouncer FSM**: Waits for signal stability before confirming a valid press.
+- **Edge Detector Module**: Compares current and previous states to detect edges.
+- **Display Logic**: Handles multiplexing and timing to show counter values on 7-segment display.
 
-"> 
+Button presses increment a counter only if the press is confirmed by the debouncer. A second counter without debounce is also maintained for comparison.
+
+---
+
+## 📊 Simulation
+
+### Vivado Simulation Results
+
+<img width="959" alt="Simulation Screenshot" src="https://github.com/user-attachments/assets/f64008c8-233c-4e4a-b1ee-51383122aa1d">
+
+### FSM Schematic
+
+<img width="938" alt="FSM Schematic" src="https://github.com/user-attachments/assets/09d87013-ca50-4d25-9377-ed36264f9af6">
+
+---
+
+## 🛠 Tools and Technologies
+
+- **Language**: Verilog HDL  
+- **IDE**: Xilinx Vivado Design Suite  
+- **Board**: Nexys A7 (Artix-7 100T, CSG324)  
+- **Methodology**: RTL Design, FSM, Synchronization  
+- **Verification**: Testbenches + On-board Testing
+
+---
+
+## ✅ Results
+
+- **Debounced Counter**: Increments only on valid presses  
+- **Naive Counter**: Registers multiple increments per press due to bouncing  
+- **Display Output**: Clear difference observed on the FPGA’s 7-segment display
+
+---
+
+## 📂 Directory Structure (Recommended)
+
