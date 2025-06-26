@@ -67,7 +67,4 @@ Button presses increment a counter only if the press is confirmed by the debounc
 - **Naive Counter**: Registers multiple increments per press due to bouncing  
 - **Display Output**: Clear difference observed on the FPGA’s 7-segment display
 
----
-
-## 📂 Directory Structure (Recommended)
 
