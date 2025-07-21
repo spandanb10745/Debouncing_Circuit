@@ -19,7 +19,6 @@ Mechanical switches are prone to bouncing, causing unreliable signals in digital
 
 - **FSM-based Debouncer**: Filters out multiple unwanted transitions within a specified time window (20ms).
 - **Edge Detection**: Accurately identifies rising or falling edges after stabilization.
-- **Two-Stage Synchronizer**: Prevents metastability when transitioning between clock domains.
 - **Verilog HDL**: All modules implemented in Verilog with modular design.
 - **Seven-Segment Display Output**: Button press events reflected via updated digits on the display.
 - **Vivado Simulation**: FSM behavior validated through testbenches and waveforms.
